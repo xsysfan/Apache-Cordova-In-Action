@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="org.camden.plugin.HelloPlugin"
+        version="1.0.0">
+    <name>HelloPlugin</name>
+    <description>Stupid Simple Cordova Plugin</description>
+    <author>Raymond Camden</author>
+    <keywords>hello,sample</keywords>
+    <license>MIT</license>
+  
+    <js-module src="www/helloplugin.js" name="HelloPlugin">
+        <clobbers target="window.helloplugin" />
+    </js-module>
+ 
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="HelloPlugin">
+                <param name="android-package" value="org.camden.plugin.HelloPlugin"/>
+            </feature>
+        </config-file>
+ 
+        <source-file src="src/HelloPlugin.java" target-dir="src/org/camden/plugin" />      
+     </platform>          
+</plugin>

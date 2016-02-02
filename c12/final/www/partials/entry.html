@@ -1,0 +1,23 @@
+<ion-view>
+	<ion-nav-title>{{entry.title}}</ion-nav-title>
+
+	<ion-content class="padding">
+
+		<p><b>Published:</b> {{entry.publishedDate}}</p>
+		
+		<div ng-bind-html="entry.content"></div>
+		
+	</ion-content>
+
+	<ion-footer-bar class="bar-dark">
+			<button class="button button-positive icon-left ion-upload" 
+			ng-click="readEntry(entry)">
+				Full Entry
+			</button>
+			<button class="button button-positive icon-left ion-share" 
+			ng-click="shareEntry(entry)">
+				Share Entry
+			</button>
+	</ion-footer-bar>
+	
+</ion-view>

@@ -1,0 +1,21 @@
+body {
+    margin: 20px;
+	font-size: 1.5em;
+}
+
+input[type=text] {
+	width: 100%;
+	font-size: 1.5em;
+}
+
+input[type=submit] {
+    padding: 10px;
+    width: 100%;
+	font-size: 1.5em;
+}
+
+#result {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+}

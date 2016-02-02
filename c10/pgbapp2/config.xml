@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.camden.pgbapp2"
+        version   = "1.0.0">
+
+    <name>PGBApp 2</name>
+
+    <description>
+        My second app. It is even moar awesome!
+    </description>
+
+    <author href="http://www.raymondcamden.com" 
+            email="raymondcamden@gmail.com">
+        The Raymond Camden
+    </author>
+
+    <preference name="permissions" value="none"/>
+  
+    <gap:plugin name="org.apache.cordova.device" />
+    
+</widget>

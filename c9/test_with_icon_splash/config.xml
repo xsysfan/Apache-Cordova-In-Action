@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.camden.iconsplash" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>IconSplash</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+
+	<icon src="res/icon.png" />
+	<splash src="res/splash.png" />
+
+	<platform name="ios">
+		<icon src="res/icon_180.png" width="180" height="180" />
+	</platform>
+	
+</widget>

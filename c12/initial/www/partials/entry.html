@@ -1,0 +1,13 @@
+<ion-view>
+
+	<ion-nav-title>{{entry.title}}</ion-nav-title>
+
+	<ion-content class="padding">
+
+		<p><b>Published:</b> {{entry.publishedDate}}</p>
+		
+		<div ng-bind-html="entry.content"></div>
+		
+	</ion-content>
+	
+</ion-view>
